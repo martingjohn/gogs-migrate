@@ -76,9 +76,9 @@ Name | Description
 `-h, --help` | Show help.
 `-V, --version` | Show version.
 `-c, --config=<path>` | Read options from given YAML configuration file.
-`--gogs-prefix=<prefix>` | Gogs URL prefix (like `https://git.example.com`).
-`--gogs-token=<token>` | Gogs access token (required, prompt otherwise).
-`--gogs-uid=<uid>` | Gogs UID (required, prompt otherwise).
+`--gogs-prefix=<prefix>` | Gogs URL prefix (like `https://gogs.example.com`).
+`--gogs-token=<token>` | Gogs access token (required, prompt otherwise). This can be found in Your Settings and go into Applications to create a token
+`--gogs-uid=<uid>` | Gogs UID (required, prompt otherwise). This can be found in the Admin Panel under Users (if you've only got the one user, this is likely to be 1)
 `--github-prefix=<prefix>` | GitHub API prefix (defaults to `https://api.github.com`).
 `--github-user=<user>` | GitHub username to stream repositories from.
 `--github-token=<token>` | GitHub user token to access private repositories.
@@ -103,6 +103,3 @@ gogs-uid: 42
 github-user: bar
 mirror: true
 ```
-
-Here, `gogs-pass` is not specified, and if it's not given via CLI, so
-you will be prompted for your password (that's the recommended way).
