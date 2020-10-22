@@ -24,7 +24,7 @@ thing is [there's an API][migrate-api] to automate this task.
 mirror) all your repositories from different sources (currently only
 GitHub public repositories are supported), to your Gogs instance.
 
-You need to configure your Gogs URL (`--gogs`), access token and UID
+You need to configure your Gogs URL (`--gogs-prefix`), access token and UID
 (`--gogs-token`, and `--gogs-uid`). If those options are not passed via
 CLI, and a [configuration file](#configuration) is given (`--config`),
 gogs-migrate will try to read them from the configuration file.
