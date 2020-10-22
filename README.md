@@ -97,7 +97,7 @@ It can contain all the normal CLI long options, with the leading `--`
 removed.
 
 ```yaml
-gogs: https://git.example.com
+gogs-prefix: https://gogos.example.com
 gogs-token: foo
 gogs-uid: 42
 github-user: bar
