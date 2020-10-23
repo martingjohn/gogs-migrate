@@ -44,13 +44,13 @@ to make them private.
 Installation
 ------------
 
-### With npm
-
-```sh
-npm install -g gogs-migrate
-```
-
 ### Manually
+
+N.B. Make sure you have an ssh public key saved in github otherwise this won't work. Check with
+```sh
+ssh git@github.com
+```
+And accept the key
 
 Clone this repository, then in the directory:
 
